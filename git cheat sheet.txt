@@ -1,0 +1,42 @@
+1. To initialize a folder 
+
+--> git init
+
+To add the folder
+
+1. All Folders
+
+--> git add *
+
+2. Specific folder/file
+
+--> git add filename
+
+3. To commit
+
+--> git commit -m "Commit message"
+
+4. To add remote repository
+
+--> git remote add origin <repositoryurl>
+ eg. git remote add origin https://github.com/harivenkateshb/CheatSheet.git
+
+5. To push to a remote branch
+
+--> git push origin <branchname>
+
+6. To create a new branch
+
+--> git checkout -b <branchname>
+ eg. git checkout -b newbranch
+
+7. To switch to a branch
+
+--> git checkout <branchname>
+
+8. To pull from a remote branch
+
+--> git pull origin <branchname>
+ eg. git pull origin master
+
+
